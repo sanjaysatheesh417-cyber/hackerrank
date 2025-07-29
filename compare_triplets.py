@@ -1,3 +1,6 @@
+#problem 1
+#compare triplets
+#https://www.hackerrank.com/challenges/compare-the-triplets
 def comparetriplets(a, b):
     # Write your code here
     l=[]

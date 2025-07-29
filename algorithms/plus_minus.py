@@ -1,6 +1,6 @@
 #PROBLEM 3
 #https://www.hackerrank.com/challenges/plus-minus
-def plusMinus(arr):
+def plusminus(arr):
     # Write your code here
     plus=0
     minus=0

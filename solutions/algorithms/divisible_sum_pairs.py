@@ -10,7 +10,7 @@ def divisibleSumPairs(n, k, ar):
     for i in range(n):
         for j in range(n):
             if i!=j:
-                if ar[i]<ar[j] and (ar[i]+ar[j])%k==0:
+                if i<j and (ar[i]+ar[j])%k==0:
                     res+=1
     return res
 if __name__ == '__main__':
